@@ -1,0 +1,25 @@
+@font-face{font-family:GameThrones;src:url("GameThrones.ttf");}
+body{background:url("../backgrounds/texturetastic_gray/texturetastic_gray.png") repeat;color:#333;font-family:Merriweather,serif;}
+h1{line-height:1.25em;font-family:GameThrones;font-size:2.5em;font-weight:normal;}
+li{cursor:pointer;}
+li img{padding:2px;border:1px solid #888;}
+#main-title{margin-bottom:0em;}
+#content,#resultsTitle,#attribution,.answer{display:none;}
+#q03 li p,#q08 li p{margin-bottom:0;}
+#q04{margin:1.5em 0 0 1.5em;}
+#cat{color:#333;text-decoration:none;}
+.is-centered{text-align:center;}
+.caption{position:absolute;left:0;right:0;}
+.flourish{display:block;margin:0 auto;}
+.answer{margin:2em 0 10em 0;}
+.answer img{float:left;margin:0 1.5em 1em 0;}
+.answer h2{padding-top:2em;}
+
+@media only screen and (min-width:40em){
+	h1{font-size:3.5em;}
+	#main-title{margin-top:1.5em;}
+	#winter{margin-top:10em;}
+	#q04{margin:1.5em 0 2.5em 2.5em;}
+	.flourish{margin:0 auto 2em auto;}
+	.questions{margin-bottom:2em;}
+}
